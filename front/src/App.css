@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -29,20 +32,24 @@
   color: #61dafb;
 }
 
-.box-model {
-  width: 800px;
-  height: 700px;
-  padding: 5px;
-  margin: auto;
-  margin-top: 25px;
-  border: rgba(0, 0, 0, 0.281) solid;
-  border-radius: 12.5%;
-  background-color: khaki;
-  transition: all 0.8s;
+.card-divider {
+
+  border-top: 3px solid gray;
+
 }
-.box-model:hover {
-  width: 850px;
-  height: 750px;
+
+.card-container {
+  width: 80%;
+  position: absolute;
+  top: 5%;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .my-label {
@@ -56,7 +63,7 @@
   transition: all 1s;
 }
 .my-label:hover {
-  font-size: 35px ;
+  font-size: 35px;
 }
 
 @keyframes App-logo-spin {
