@@ -22,5 +22,5 @@ backend app runs on `localhost:9000`
 ## Client Application :
 created a front end web application using react and bootstrap.
 at the start of our app, it fetches the JSON from `localhost:9000/testApi` 
-using JSON placeholder it fetches a fake JSON after clicking on the button and loads the data in to the application.
+using JSON placeholder it fetches a fake JSON after clicking on the button and loads the data into the application.
  
